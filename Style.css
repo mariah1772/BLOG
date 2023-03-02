@@ -39,7 +39,7 @@ nav ul li a :hover{
    
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
+    position: absolute;
     align-items: center;
     justify-content: center;
 
