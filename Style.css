@@ -35,7 +35,7 @@ nav ul li a :hover{
     height: 80px;
 }
 
-.container {
+#container {
     background-image: url("img/mountain.jpg");
     background-size: cover;
     background-repeat: no-repeat;
