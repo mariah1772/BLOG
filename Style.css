@@ -6,8 +6,8 @@ nav{
 
 position:fixed;
 top: 50px;
-right: o;
-right: left;
+right: 0;
+
 }
 nav ul{
     list-style: none;
@@ -35,9 +35,20 @@ nav ul li a :hover{
     height: 80px;
 }
 
-#container {
-    background-image: url("img/mountain.jpg");
+.img main {
+   
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
 
+}
+.slogan{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    font-size:24px;
+    text-align: center;
+    z-index: 1;
 }
