@@ -1,6 +1,13 @@
-nav{
-background-color: black;
+html,body{
+    overflow: visible;
+}
 
+nav{
+
+position:fixed;
+top: 50px;
+right: o;
+right: left;
 }
 nav ul{
     list-style: none;
@@ -9,11 +16,12 @@ nav ul{
 }
 
 nav ul li{
-    display:inline-block
+    display:inline-block;
+    margin-left: 10px;
 }
 nav ul li a {
-color: #fff;
-display: black;
+color: black;
+display: white;
 padding: 15px;
 text-decoration: none;
 }
@@ -21,4 +29,15 @@ text-decoration: none;
 nav ul li a :hover{
 
     background-color: #444;
+}
+.logo{
+    width: 100px;
+    height: 80px;
+}
+
+.container {
+    background-image: url(img/mountain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
