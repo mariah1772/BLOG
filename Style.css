@@ -39,9 +39,10 @@ nav ul li a :hover{
    
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
+    position: fixed;
     align-items: center;
     justify-content: center;
+
 
 }
 .slogan{
@@ -56,12 +57,14 @@ nav ul li a :hover{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-#aside a {
-    font-weight: bold;
+aside a {
+    font-weight: bolder;
     background-color:brown;
     border: 1px solid #ccc;
     padding: 10px;
     width: 300px;
     display: inline-block;
     margin: 10px;
+    top: 100px;
+    left: 100px;
 }
