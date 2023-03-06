@@ -121,5 +121,7 @@ h2 {
   margin-right: 20px;
   text-decoration: none;
   color: #0077cc;
+  padding: 5px 10px;
+  border-radius: 5px;
 
  }
